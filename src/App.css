@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.bathroom-card {
+  color: white;
+  display: inline-block;
+  width: 45%;
+  border-radius: 5%;
+  border: 5px solid #e2c03c;
+  height: 50vh;
+
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.bathroom-card .banana-img {
+  margin-top: 12px;
+  max-height: 40%;
+  max-width: 40%;
+}
+
+.bathroom-card .bathroom-open {
+  color: lime;
+}
+
+.bathroom-card .bathroom-closed {
+  color: red;
+}
